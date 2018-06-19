@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.cnsunrun.library.radius.RadiusTextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="改变选择背景"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            app:rv_backgroundColor="@color/colorPrimary"
+            app:rv_backgroundPressedColor="@color/colorAccent"
+            app:rv_radius="6dp" />
+
+        <com.cnsunrun.library.radius.RadiusTextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="改变选择背景(圆角)"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            app:rv_backgroundColor="@color/colorPrimary"
+            app:rv_backgroundPressedColor="@color/colorAccent"
+            app:rv_radius="6dp"
+            app:rv_radiusHalfHeightEnable="true" />
+
+        <com.cnsunrun.library.radius.RadiusTextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="描边"
+            android:textSize="14sp"
+            app:rv_backgroundColor="#FFF"
+            app:rv_radiusHalfHeightEnable="true"
+            app:rv_strokeColor="@color/colorAccent"
+            app:rv_strokePressedColor="@color/colorPrimary"
+            app:rv_strokeWidth="1dp"
+            app:rv_textColor="@color/colorPrimary"
+            app:rv_textPressedColor="@color/colorAccent" />
+
+
+        <com.cnsunrun.library.radius.RadiusEditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:gravity="center_vertical"
+            android:hint="请输入信息"
+            android:paddingLeft="10dp"
+            android:textColor="#333"
+            android:textColorHint="#999"
+            android:textSize="14sp"
+            app:rv_backgroundColor="#eee"
+            app:rv_radius="5dp"
+            app:rv_strokeColor="@color/colorPrimary"
+            app:rv_strokeWidth="1dp" />
+
+        <com.cnsunrun.library.radius.RadiusLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical"
+            app:rv_backgroundColor="@color/colorAccent"
+            app:rv_backgroundPressedColor="@color/colorPrimary">
+
+
+            <com.cnsunrun.library.radius.RadiusTextView
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="描边"
+                android:textSize="14sp"
+                app:rv_backgroundColor="#FFF"
+                app:rv_radiusHalfHeightEnable="true"
+                app:rv_strokeColor="@color/colorAccent"
+                app:rv_strokePressedColor="@color/colorPrimary"
+                app:rv_strokeWidth="1dp"
+                app:rv_textColor="@color/colorPrimary"
+                app:rv_textPressedColor="@color/colorAccent" />
+        </com.cnsunrun.library.radius.RadiusLinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
