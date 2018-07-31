@@ -20,17 +20,14 @@ import com.cnsunrun.library.utils.ResourceUtil;
 
 
 /**
- * Created: AriesHoo on 2017-02-10 14:25
- * E-Mail: AriesHoo@126.com
- * Function:  公共属性解析代理类
- * Description:
- * 1、2017-11-15 09:36:14 添加Java属性设置链式调用支持
- * 2、2018-2-4 10:13:17 修改设置背景时机需调用init方法以设置避免未设置完所有属性不停调用设置背景
- * 3、2018-2-4 17:10:15 增加setSelected方法及对应的监听setOnSelectedChangeListener
- * 4、2018-2-5 13:36:02 修改不可点击属性Enabled对应修改为Disabled xml及java方法同步修改
- * 5、2018-2-6 12:04:02 校正float类型参数xml属性解析方法
- * 6、2018-2-23 10:30:53 新增View在非波纹背景下各个状态切换时延属性
- * 7、2018-3-18 11:17:29 新增泛型返回方便子类继承的链式调用
+ * 公共属性解析代理类
+ * 1、添加Java属性设置链式调用支持
+ * 2、 修改设置背景时机需调用init方法以设置避免未设置完所有属性不停调用设置背景
+ * 3、 增加setSelected方法及对应的监听setOnSelectedChangeListener
+ * 4、修改不可点击属性Enabled对应修改为Disabled xml及java方法同步修改
+ * 5、校正float类型参数xml属性解析方法
+ * 6、新增View在非波纹背景下各个状态切换时延属性
+ * 7、 新增泛型返回方便子类继承的链式调用
  */
 public class RadiusViewDelegate<T extends RadiusViewDelegate> {
 

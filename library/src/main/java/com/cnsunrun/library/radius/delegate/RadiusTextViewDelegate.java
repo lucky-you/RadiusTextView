@@ -18,12 +18,9 @@ import com.cnsunrun.library.utils.DrawableUtil;
 
 
 /**
- * Created: AriesHoo on 2018/2/5/005 13:53
- * E-Mail: AriesHoo@126.com
- * Function: TextView特有代理类
- * Description:
- * 1、2018-2-4 17:42:18 增加 CompoundButton 类(CheckBox和RadioButton)增加ButtonDrawable属性
- * 2、2018-2-5 11:02:51 增加TextView类设置drawable属性
+ * textView特有代理类
+ * 1、增加 CompoundButton 类(CheckBox和RadioButton)增加ButtonDrawable属性
+ * 2、增加TextView类设置drawable属性
  * 3、提前增加文本颜色值默认检查
  */
 public class RadiusTextViewDelegate<T extends RadiusTextViewDelegate> extends RadiusViewDelegate<T> {

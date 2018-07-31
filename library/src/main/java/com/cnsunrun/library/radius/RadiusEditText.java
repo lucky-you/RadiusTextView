@@ -7,11 +7,8 @@ import com.cnsunrun.library.radius.delegate.RadiusTextViewDelegate;
 
 
 /**
- * Created: AriesHoo on 2017-02-13 16:10
- * E-Mail: AriesHoo@126.com
- * Function: 用于需要圆角矩形框背景的EditText的情况,减少直接使用EditText时引入的shape资源文件
- * Description:
- * 1、2018-2-5 14:27:16 初始化TextView的 RadiusTextViewDelegate
+ * 用于需要圆角矩形框背景的EditText的情况,减少直接使用EditText时引入的shape资源文件
+ * 1、初始化TextView的 RadiusTextViewDelegate
  */
 public class RadiusEditText extends android.support.v7.widget.AppCompatEditText {
 

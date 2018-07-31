@@ -5,10 +5,7 @@ import android.view.View;
 import java.lang.ref.WeakReference;
 
 /**
- * Created: AriesHoo on 2018/3/12/012 12:41
- * E-Mail: AriesHoo@126.com
- * Function: 设置View按下状态透明度变化帮助类
- * Description:
+ * 设置View按下状态透明度变化帮助类
  */
 public class AlphaViewHelper {
 

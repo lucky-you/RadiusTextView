@@ -12,10 +12,7 @@ import com.cnsunrun.library.utils.DrawableUtil;
 
 
 /**
- * Created: AriesHoo on 2018/2/6/006 9:47
- * E-Mail: AriesHoo@126.com
- * Function: 设置CompoundButton ButtonDrawable相关代理
- * Description:
+ * 设置CompoundButton ButtonDrawable相关代理
  */
 public class RadiusCompoundButtonDelegate<T extends RadiusCompoundButtonDelegate> extends RadiusTextViewDelegate<T> {
 

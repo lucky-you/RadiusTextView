@@ -6,10 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
 
 /**
- * Created: AriesHoo on 2018/3/20/020 11:06
- * E-Mail: AriesHoo@126.com
- * Function: 资源文件获取帮助类
- * Description:
+ *资源文件获取帮助类
  */
 public class ResourceUtil {
 
