@@ -4,7 +4,7 @@ import android.content.Context;
 import android.support.v7.widget.AppCompatCheckBox;
 import android.util.AttributeSet;
 
-import com.cnsunrun.library.radius.delegate.RadiusCompoundButtonDelegate;
+import com.zhowin.library.radius.delegate.RadiusCompoundButtonDelegate;
 
 
 /**

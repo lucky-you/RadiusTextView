@@ -15,8 +15,8 @@ import android.view.View;
 import android.widget.CompoundButton;
 import android.widget.EditText;
 
-import com.cnsunrun.library.R;
-import com.cnsunrun.library.utils.ResourceUtil;
+import com.zhowin.library.R;
+import com.zhowin.library.utils.ResourceUtil;
 
 
 /**

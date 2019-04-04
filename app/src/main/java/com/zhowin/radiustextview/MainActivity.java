@@ -1,9 +1,9 @@
-package com.zhowin.radiustextviewdemo;
+package com.zhowin.radiustextview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.cnsunrun.radiustextviewdemo.R;
+
 
 public class MainActivity extends AppCompatActivity {
 

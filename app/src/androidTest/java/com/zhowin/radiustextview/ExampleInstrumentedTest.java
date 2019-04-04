@@ -1,4 +1,4 @@
-package com.zhowin.radiustextviewdemo;
+package com.zhowin.radiustextview;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

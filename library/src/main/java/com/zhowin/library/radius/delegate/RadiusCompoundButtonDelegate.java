@@ -7,8 +7,8 @@ import android.util.AttributeSet;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import com.cnsunrun.library.R;
-import com.cnsunrun.library.utils.DrawableUtil;
+import com.zhowin.library.R;
+import com.zhowin.library.utils.DrawableUtil;
 
 
 /**

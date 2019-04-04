@@ -11,7 +11,7 @@
         android:orientation="vertical">
 
 
-        <com.cnsunrun.library.radius.RadiusTextView
+        <com.zhowin.library.radius.RadiusTextView
             android:layout_width="match_parent"
             android:layout_height="44dp"
             android:layout_margin="16dp"
@@ -23,7 +23,7 @@
             app:rv_backgroundPressedColor="@color/colorAccent"
             app:rv_radius="6dp" />
 
-        <com.cnsunrun.library.radius.RadiusTextView
+        <com.zhowin.library.radius.RadiusTextView
             android:layout_width="match_parent"
             android:layout_height="44dp"
             android:layout_margin="16dp"
@@ -36,7 +36,7 @@
             app:rv_radius="6dp"
             app:rv_radiusHalfHeightEnable="true" />
 
-        <com.cnsunrun.library.radius.RadiusTextView
+        <com.zhowin.library.radius.RadiusTextView
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:layout_margin="16dp"
@@ -52,7 +52,7 @@
             app:rv_textPressedColor="@color/colorAccent" />
 
 
-        <com.cnsunrun.library.radius.RadiusEditText
+        <com.zhowin.library.radius.RadiusEditText
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_margin="16dp"
@@ -67,7 +67,7 @@
             app:rv_strokeColor="@color/colorPrimary"
             app:rv_strokeWidth="1dp" />
 
-        <com.cnsunrun.library.radius.RadiusLinearLayout
+        <com.zhowin.library.radius.RadiusLinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="16dp"
@@ -76,7 +76,7 @@
             app:rv_backgroundPressedColor="@color/colorPrimary">
 
 
-            <com.cnsunrun.library.radius.RadiusTextView
+            <com.zhowin.library.radius.RadiusTextView
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_margin="16dp"
@@ -90,7 +90,7 @@
                 app:rv_strokeWidth="1dp"
                 app:rv_textColor="@color/colorPrimary"
                 app:rv_textPressedColor="@color/colorAccent" />
-        </com.cnsunrun.library.radius.RadiusLinearLayout>
+        </com.zhowin.library.radius.RadiusLinearLayout>
 
 
     </LinearLayout>

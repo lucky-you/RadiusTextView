@@ -1,4 +1,4 @@
-package com.zhowin.radiustextviewdemo;
+package com.zhowin.radiustextview;
 
 import org.junit.Test;
 

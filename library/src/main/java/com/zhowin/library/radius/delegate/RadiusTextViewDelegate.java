@@ -13,8 +13,8 @@ import android.view.Gravity;
 import android.view.View;
 import android.widget.TextView;
 
-import com.cnsunrun.library.R;
-import com.cnsunrun.library.utils.DrawableUtil;
+import com.zhowin.library.R;
+import com.zhowin.library.utils.DrawableUtil;
 
 
 /**
