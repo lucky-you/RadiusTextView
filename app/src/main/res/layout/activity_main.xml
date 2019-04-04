@@ -76,6 +76,17 @@
             app:rv_backgroundPressedColor="@color/colorPrimary">
 
 
+            <com.zhowin.library.radius.RadiusCheckBox
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:button="@null"
+                app:rv_backgroundColor="#fff"
+                app:rv_strokeColor="@color/colorPrimary"
+                app:rv_strokePressedColor="@color/colorPrimary"
+                app:rv_strokeWidth="2dp" />
+
             <com.zhowin.library.radius.RadiusTextView
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
