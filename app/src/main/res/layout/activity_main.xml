@@ -22,6 +22,7 @@
             app:rv_backgroundColor="@color/colorPrimary"
             app:rv_radius="6dp" />
 
+
         <com.zhowin.library.radius.RadiusTextView
             android:layout_width="match_parent"
             android:layout_height="44dp"
@@ -62,6 +63,21 @@
             android:textColorHint="#999"
             android:textSize="14sp"
             app:rv_backgroundColor="#eee"
+            app:rv_radius="5dp"
+            app:rv_strokeColor="@color/colorPrimary"
+            app:rv_strokeWidth="1dp" />
+
+        <com.zhowin.library.radius.RadiusTextView
+            android:id="@+id/radiusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#333"
+            android:textColorHint="#999"
+            android:textSize="14sp"
+            app:rv_backgroundColor="#fff"
             app:rv_radius="5dp"
             app:rv_strokeColor="@color/colorPrimary"
             app:rv_strokeWidth="1dp" />
