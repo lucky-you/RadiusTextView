@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.TypedValue;
 
 /**
- *资源文件获取帮助类
+ * 资源文件获取帮助类
  */
 public class ResourceUtil {
 

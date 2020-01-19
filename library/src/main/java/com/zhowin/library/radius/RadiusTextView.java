@@ -8,7 +8,6 @@ import com.zhowin.library.radius.delegate.RadiusTextViewDelegate;
 
 /**
  * 用于需要圆角矩形框背景的TextView的情况,减少直接使用TextView时引入的shape资源文件
- * 1、初始化TextView的 RadiusTextViewDelegate
  */
 public class RadiusTextView extends android.support.v7.widget.AppCompatTextView {
 
@@ -29,8 +28,6 @@ public class RadiusTextView extends android.support.v7.widget.AppCompatTextView 
 
     /**
      * 获取代理类用于Java代码控制shape属性
-     *
-     * @return
      */
     public RadiusTextViewDelegate<RadiusTextViewDelegate> getDelegate() {
         return delegate;
