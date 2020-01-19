@@ -78,6 +78,7 @@
             android:textColorHint="#999"
             android:textSize="14sp"
             app:rv_backgroundColor="#fff"
+            app:rv_backgroundPressedColor="@color/colorAccent"
             app:rv_radius="5dp"
             app:rv_strokeColor="@color/colorPrimary"
             app:rv_strokeWidth="1dp" />
