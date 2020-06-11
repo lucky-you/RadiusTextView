@@ -64,6 +64,7 @@
             android:textSize="14sp"
             app:rv_backgroundColor="#eee"
             app:rv_radius="5dp"
+            app:rv_backgroundPressedColor="@color/colorPrimary"
             app:rv_strokeColor="@color/colorPrimary"
             app:rv_strokeWidth="1dp" />
 
