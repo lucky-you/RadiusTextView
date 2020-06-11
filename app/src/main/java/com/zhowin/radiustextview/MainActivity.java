@@ -1,6 +1,6 @@
 package com.zhowin.radiustextview;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.zhowin.library.radius.RadiusTextView;
