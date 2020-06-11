@@ -89,7 +89,8 @@
             android:layout_margin="16dp"
             android:orientation="vertical"
             app:rv_backgroundColor="@color/colorAccent"
-            app:rv_backgroundPressedColor="@color/colorPrimary">
+            app:rv_backgroundPressedColor="@color/colorPrimary"
+            app:rv_radius="4dp">
 
 
             <com.zhowin.library.radius.RadiusTextView
